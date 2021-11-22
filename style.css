@@ -53,37 +53,39 @@
 @media only screen and (max-width: 700px) {
 
   #header {
-    width: auto;
-    height: 175px;
+    width: 100%;
+    flex: 1;
   }
 
   #footer {
-    width: auto;
-    height: 175px;
+    width: 100%;
+    flex: 1;
   }
 
   #nav {
-    width: auto;
-    height: 100px;
+    width: 100%;
+    flex: 1;
   }
 
   #articles {
-    width: auto;
-    height: 300px;
+    width: 100%;
+    flex: 1;
   }
 
   #ads {
-    width: auto;
-    height: 100px;
+    width: 100%;
+    flex: 1;
   }
 
   #middle {
-    width: auto;
+    width: 100%;
+    flex: 1;
     flex-direction: column;
   }
 
   #main {
-    width: auto;
+    width: 100%;
+    flex: 1;
     flex-direction: column;
   }
 
@@ -92,18 +94,18 @@
 @media only screen and (max-width: 1100px) {
 
   #nav {
-    width: auto;
-    height: 100px;
+    width: 100%;
+    flex: 1;
   }
 
   #articles {
     width: 50vw;
-    height: 400px;
+    flex: 1;
   }
 
   #ads {
     width: 50vw;
-    height: 400px;
+    flex: 1;
   }
 
   #middle {
