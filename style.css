@@ -114,6 +114,7 @@
 
   #main {
     width: 100vw;
+    height: 400px;
     flex-direction: row;
   }
   
